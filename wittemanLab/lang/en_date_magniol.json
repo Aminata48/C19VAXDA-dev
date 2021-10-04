@@ -1,0 +1,1913 @@
+{
+  "magniiol" : "noubi",
+  "language": "English",
+  "instructions": {
+    "instructionTitle": "Deciding about a Covid-19 vaccine",
+    "instructionParagraph": "Welcome. This website is here to help people in Canada make informed decisions about Covid-19 vaccines. You can use it to make a decision about a vaccine for yourself or for your child.",
+    "instructionBtn": "Next"
+  },
+  "socioDemo": {
+    "socioDemoTitle": "About you/your child",
+    "socioDemoParagraph1": "We need to know a little bit of information about you/your child to give you the right data. We use this information to:",
+    "socioDemoParagraphList": [
+      {
+        "text": "help determine which vaccines are available to you/your child"
+      },
+      {
+        "text": "estimate your/your child's risk of getting Covid-19"
+      },
+      {
+        "text": "estimate what might happen to you/your child if you/your child got Covid-19"
+      }
+    ],
+    "socioDemoEligibility": [
+      {
+        "eligibility": "age",
+        "eligibilitytext": "your/your child's age group is eligible"
+      },
+      {
+        "eligibility": "health",
+        "eligibilitytext": "of your/your child's own health (e.g., chronic illness, disability)"
+      },
+      {
+        "eligibility": "caregiver",
+        "eligibilitytext": "you are a caregiver for someone else"
+      },
+      {
+        "eligibility": "healthworker",
+        "eligibilitytext": "you are a health worker"
+      },
+      {
+        "eligibility": "essential",
+        "eligibilitytext": "you are an essential worker (but not a health worker)"
+      }
+    ],
+    "socioDemoOptions": [
+      {
+        "optionid": "AstraZeneca",
+        "optionname": "AstraZeneca/Oxford (2 doses, 18+)",
+        "minage": 18,
+        "maxage": 200,
+        "comments": "optionName feeds other sheets (SliderLabels)"
+      },
+      {
+        "optionid": "AZPfizer",
+        "optionname": "AstraZeneca/Oxford + Moderna/Pfizer (1 dose each, age 18+)",
+        "minage": 18,
+        "maxage": 200
+      },
+      {
+        "optionid": "Janssen",
+        "optionname": "Johnson&Johnson/Janssen (1 dose, age 18+)",
+        "minage": 18,
+        "maxage": 200
+      },
+      {
+        "optionid": "Moderna",
+        "optionname": "Moderna (2 doses, age 18+)",
+        "minage": 18,
+        "maxage": 200
+      },
+      {
+        "optionid": "ModernaAdo",
+        "optionname": "Moderna (2 doses, age 12-17)",
+        "minage": 12,
+        "maxage": 17
+      },
+      {
+        "optionid": "Pfizer",
+        "optionname": "Pfizer/BioNTech (2 doses, age 18+)",
+        "minage": 18,
+        "maxage": 200
+      },
+      {
+        "optionid": "PfizerAdo",
+        "optionname": "Pfizer/BioNTech (2 doses, age 12-17)",
+        "minage": 12,
+        "maxage": 17
+      },
+      {
+        "optionid": "NoVax",
+        "optionname": "No vaccine",
+        "minage": 0,
+        "maxage": 200
+      }
+    ],
+    "socioDemoParagraph2": "Your province or territory:",
+    "socioDemoParagraph3": "Your/your child's age:",
+    "socioDemoParagraph4": "Are you/Is your child eligible for a vaccine because:",
+    "socioDemoParagraph4Bold": "(optional, check all that apply)",
+    "socioDemoParagraph5": "There are currently 4 approved vaccines available in Canada. In this decision aid, you can compare 2 options. This means you can compare any vaccine to no vaccine, or you can compare two vaccines against each other.",
+    "socioDemoParagraph6": "What do you want to compare?",
+    "socioDemoParagraph6_1": "(choose two)",
+    "socioDemoParagraph7": "Not sure which vaccine(s) are available to you? Check this box and we will show you the information for your most likely option, based on your age, province/territory, and eligibility.",
+    "socioDemoHeader": "Choose which options to compare",
+    "textFieldLabel": "Enter here",
+    "textFieldPlaceholder": "In years",
+    "btn": {
+      "next": "Next",
+      "clickHere": "click here"
+    },
+    "c19vaxdaProvinces": [
+      "Newfoundland & Labrador",
+      "Prince Edward Island",
+      "Nova Scotia",
+      "New Brunswick",
+      "Quebec",
+      "Ontario",
+      "Manitoba",
+      "Saskatchewan",
+      "Alberta",
+      "British Columbia",
+      "Nunavut",
+      "Northwest Territories",
+      "Yukon"
+    ],
+    "c19vaxdaText": [
+      {
+        "text": "Title1",
+        "en": "My decision about a COVID-19 vaccine",
+        "fr": "zzz"
+      },
+      {
+        "text": "ShortTitle1",
+        "en": "My decision",
+        "fr": "zzz"
+      },
+      {
+        "text": "Paragraph1.1",
+        "en": "Welcome. This website is here to help you make a decision about COVID-19 vaccines. First, we need to know which vaccine(s) you may be considering.",
+        "fr": "zzz"
+      },
+      {
+        "text": "Title2",
+        "en": "About me",
+        "fr": "zzz"
+      },
+      {
+        "text": "ShortTitle2",
+        "en": "About me",
+        "fr": "zzz"
+      },
+      {
+        "text": "Paragraph2.1.1",
+        "en": "We need to know a little bit of information about you to give you the right data. We use this information to:<ul><li>help determine which vaccines are available to you</li><li>estimate your risk of getting COVID-19</li><li>estimate what might happen to you if you got COVID-19</li></ul>",
+        "fr": "zzz"
+      },
+      {
+        "text": "Paragraph2.1.2",
+        "en": "Your province or territory:",
+        "fr": "zzz"
+      },
+      {
+        "text": "Paragraph2.1.3",
+        "en": "Your age:",
+        "fr": "zzz"
+      },
+      {
+        "text": "Paragraph2.1.4",
+        "en": "Are you eligible for a vaccine because: <b>(optional, check all that apply)</b>",
+        "fr": "zzz"
+      },
+      {
+        "text": "Header2.2",
+        "en": "Choose which options to compare",
+        "fr": "zzz"
+      },
+      {
+        "text": "Paragraph2.2.1",
+        "en": "There are currently 4 approved vaccines available in Canada. In this decision aid, you can compare 2 options. This means you can compare any vaccine to no vaccine, or you can compare two vaccines against each other.<br><br>Which options do you want to compare? <b>(choose two)</b>",
+        "fr": "zzz"
+      },
+      {
+        "text": "Paragraph2.2.2",
+        "en": "Not sure which vaccine(s) are available to you? Check this box and we will show you the information for your most likely option, based on your age, province/territory,",
+        "fr": "zzz"
+      },
+      {
+        "text": "Paragraph2.3.1",
+        "en": "<b>Important:</b> Different vaccines were tested with different groups of people, at different times, and in different places. This makes them hard to compare to each other. We will show you the data for these two vaccines side-by-side, but please remember: <b>this is not an apples-to-apples comparison</b>.",
+        "fr": "zzz"
+      },
+      {
+        "text": "Title3",
+        "en": "My avatar",
+        "fr": "zzz"
+      },
+      {
+        "text": "ShortTitle3",
+        "en": "My avatar",
+        "fr": "zzz"
+      },
+      {
+        "text": "Paragraph3.1",
+        "en": "Choose the character that looks most like you. We will use this to show you personalized risk estimates.",
+        "fr": "Choisissez un personnage qui vous ressemble le plus. Nous l'utiliserons pour vous montrer des estimations de risque personnalises."
+      },
+      {
+        "text": "Title4",
+        "en": "Benefits and risks for me",
+        "fr": "zzz"
+      },
+      {
+        "text": "ShortTitle4",
+        "en": "My benefits & risks",
+        "fr": "zzz"
+      },
+      {
+        "text": "Paragraph4.1",
+        "en": "Click on any heading below to see how your options compare.",
+        "fr": "zzz"
+      },
+      {
+        "text": "Header4.1",
+        "en": "About the vaccine & how it works",
+        "fr": "zzz"
+      },
+      {
+        "text": "Header4.2",
+        "en": "How the vaccine was developed and made",
+        "fr": "zzz"
+      },
+      {
+        "text": "Header4.3",
+        "en": "How and where the vaccine was tested",
+        "fr": "zzz"
+      },
+      {
+        "text": "Header4.4",
+        "en": "Chance of getting COVID-19",
+        "fr": "zzz"
+      },
+      {
+        "text": "Header4.5",
+        "en": "Chance of hospitalization due to COVID-19",
+        "fr": "zzz"
+      },
+      {
+        "text": "Header4.6",
+        "en": "Chance of death due to COVID-19",
+        "fr": "zzz"
+      },
+      {
+        "text": "Header4.7",
+        "en": "Chance of blood clots",
+        "fr": "zzz"
+      },
+      {
+        "text": "Header4.8",
+        "en": "Chance of other side effects",
+        "fr": "zzz"
+      },
+      {
+        "text": "Header4.9",
+        "en": "People who should not get this vaccine",
+        "fr": "zzz"
+      },
+      {
+        "text": "Title5",
+        "en": "Benefits for my community",
+        "fr": "zzz"
+      },
+      {
+        "text": "ShortTitle5",
+        "en": "My community",
+        "fr": "zzz"
+      },
+      {
+        "text": "Title6",
+        "en": "What matters most to me",
+        "fr": "zzz"
+      },
+      {
+        "text": "ShortTitle6",
+        "en": "What matters",
+        "fr": "zzz"
+      },
+      {
+        "text": "Title7",
+        "en": "References & Frequently Asked Questions",
+        "fr": "zzz"
+      },
+      {
+        "text": "ShortTitle7",
+        "en": "References & FAQ",
+        "fr": "zzz"
+      },
+      {
+        "text": "Title8",
+        "en": "About us",
+        "fr": "zzz"
+      },
+      {
+        "text": "ShortTitle8",
+        "en": "About us",
+        "fr": "zzz"
+      }
+    ],
+    "c19vaxdaComboSliderLabelsEn": [
+      {
+        "option1": "AstraZeneca",
+        "option2": "NoVax",
+        "combotext": "NA",
+        "slider1": "Having protection against Covid, hospitalization, death due to Covid",
+        "slider2": "Possible hassle to get the vaccine, Probably 1-2 days of minor side effects (sore arm, fatigue), Small chance of severe blood clots, ",
+        "vertical1": "AstraZeneca/Oxford (2 doses, 18+)",
+        "vertical2": "No vaccine"
+      },
+      {
+        "option1": "AstraZeneca",
+        "option2": "AZPfizer",
+        "combotext": "<b>Important:</b> Different vaccines were tested with different groups of people, at different times, in different places, and with different variants of concern circulating. This makes them hard to compare to each other. We will show you the data from the different trials for each these vaccines side-by-side, but please remember: <b>this is not an apples-to-apples comparison</b>. These vaccines have had some studies done that allow us to compare them a bit, but the studies are not as conclusive as a randomized trial would be.",
+        "slider1": "Reasons for AZx2",
+        "slider2": "Reasons for AZPfizer",
+        "vertical1": "AstraZeneca/Oxford (2 doses, 18+)",
+        "vertical2": "ZZZ need to add"
+      },
+      {
+        "option1": "AstraZeneca",
+        "option2": "Janssen",
+        "combotext": "<b>Important:</b> Different vaccines were tested with different groups of people, at different times, in different places, and with different variants of concern circulating. This makes them hard to compare to each other. We will show you the data from the different trials for each these vaccines side-by-side, but please remember: <b>this is not an apples-to-apples comparison</b>. These vaccines have not been tested against each other, so we don't actually know for sure how they stack up against each other.",
+        "slider1": "Reasons for AZ over Janssen",
+        "slider2": "Reasons for Janssen over AZ",
+        "vertical1": "AstraZeneca/Oxford (2 doses, 18+)",
+        "vertical2": "Johnson&Johnson/Janssen (1 dose, age 18+)"
+      },
+      {
+        "option1": "AstraZeneca",
+        "option2": "Moderna",
+        "combotext": "<b>Important:</b> Different vaccines were tested with different groups of people, at different times, in different places, and with different variants of concern circulating. This makes them hard to compare to each other. We will show you the data from the different trials for each these vaccines side-by-side, but please remember: <b>this is not an apples-to-apples comparison</b>. These vaccines have not been tested against each other, so we don't actually know for sure how they stack up against each other.",
+        "slider1": "Reasons for AZ over Moderna",
+        "slider2": "Reasons for Moderna over AZ",
+        "vertical1": "AstraZeneca/Oxford (2 doses, 18+)"
+      },
+      {
+        "option1": "AstraZeneca",
+        "option2": "Pfizer",
+        "combotext": "<b>Important:</b> Different vaccines were tested with different groups of people, at different times, in different places, and with different variants of concern circulating. This makes them hard to compare to each other. We will show you the data from the different trials for each these vaccines side-by-side, but please remember: <b>this is not an apples-to-apples comparison</b>. These vaccines have had some studies done that allow us to compare them a bit, but the studies are not as conclusive as a randomized trial would be.",
+        "slider1": "Reasons for AZ over Pfizer",
+        "slider2": "Reasons for Pfizer over AZ",
+        "vertical1": "AstraZeneca/Oxford (2 doses, 18+)"
+      },
+      {
+        "option1": "Janssen",
+        "option2": "NoVax",
+        "combotext": "NA",
+        "slider1": "Reasons for Janssen over NoVax",
+        "slider2": "Reasons for NoVax over Janssen",
+        "vertical1": "Johnson&Johnson/Janssen (1 dose, age 18+)",
+        "vertical2": "No vaccine"
+      },
+      {
+        "option1": "Janssen",
+        "option2": "Moderna",
+        "combotext": "<b>Important:</b> Different vaccines were tested with different groups of people, at different times, in different places, and with different variants of concern circulating. This makes them hard to compare to each other. We will show you the data from the different trials for each these vaccines side-by-side, but please remember: <b>this is not an apples-to-apples comparison</b>. These vaccines have not been tested against each other, so we don't actually know for sure how they stack up against each other.",
+        "slider1": "Having good protection with only one dose instead of two; using an older vaccine technology (adenovirus vector) instead of a newer one (messenger RNA)",
+        "slider2": "Possibly having higher chances of protection against Covid, hospitalization, and death due to Covid; using of a newer vaccine technology (messenger RNA) instead of an older one (adenovirus vector) ",
+        "vertical1": "Johnson&Johnson/Janssen (1 dose, age 18+)",
+        "vertical2": "Moderna (2 doses, age 18+)"
+      },
+      {
+        "option1": "Janssen",
+        "option2": "Pfizer",
+        "combotext": "<b>Important:</b> Different vaccines were tested with different groups of people, at different times, in different places, and with different variants of concern circulating. This makes them hard to compare to each other. We will show you the data from the different trials for each these vaccines side-by-side, but please remember: <b>this is not an apples-to-apples comparison</b>. These vaccines have not been tested against each other, so we don't actually know for sure how they stack up against each other.",
+        "slider1": "Having good protection with only one dose instead of two; using an older vaccine technology (adenovirus vector) instead of a newer one (messenger RNA)",
+        "slider2": "Possibly having higher chances of protection against Covid, hospitalization, and death due to Covid; using of a newer vaccine technology (messenger RNA) instead of an older one (adenovirus vector) ",
+        "vertical1": "Johnson&Johnson/Janssen (1 dose, age 18+)",
+        "vertical2": "Pfizer/BioNTech (2 doses, age 18+)"
+      },
+      {
+        "option1": "Moderna",
+        "option2": "NoVax",
+        "combotext": "NA",
+        "slider1": "Reasons for Moderna over NoVax",
+        "slider2": "Reasons for NoVax over Moderna",
+        "vertical1": "Moderna (2 doses, age 18+)",
+        "vertical2": "No vaccine"
+      },
+      {
+        "option1": "Moderna",
+        "option2": "Pfizer",
+        "combotext": "<b>Important:</b> Different vaccines were tested with different groups of people, at different times, in different places, and with different variants of concern circulating. This makes them hard to compare to each other. We will show you the data from the different trials for each these vaccines side-by-side, but please remember: <b>this is not an apples-to-apples comparison</b>. These vaccines have not been tested against each other, so we don't actually know for sure how they stack up against each other.",
+        "slider1": "Reasons for Moderna over Pfizer",
+        "slider2": "Reasons for Pfizer over Moderna",
+        "vertical1": "Moderna (2 doses, age 18+)",
+        "vertical2": "Pfizer/BioNTech (2 doses, age 18+)"
+      },
+      {
+        "option1": "ModernaAdo",
+        "option2": "NoVax",
+        "combotext": "NA",
+        "slider1": "Reasons for ModernaAdo over NoVax",
+        "slider2": "Reasons for NoVax over ModernaAdo",
+        "vertical1": "Moderna (2 doses, age 12-17)",
+        "vertical2": "No vaccine"
+      },
+      {
+        "option1": "ModernaAdo",
+        "option2": "PfizerAdo",
+        "combotext": "<b>Important:</b> Different vaccines were tested with different groups of people, at different times, in different places, and with different variants of concern circulating. This makes them hard to compare to each other. We will show you the data from the different trials for each these vaccines side-by-side, but please remember: <b>this is not an apples-to-apples comparison</b>. These vaccines have not been tested against each other, so we don't actually know for sure how they stack up against each other.",
+        "slider1": "Reasons for ModernaAdo over PfizerAdo",
+        "slider2": "Reasons for PfizerAdo over ModernaAdo",
+        "vertical1": "Moderna (2 doses, age 12-17)",
+        "vertical2": "Pfizer/BioNTech (2 doses, age 12-17)"
+      },
+      {
+        "option1": "Pfizer",
+        "option2": "NoVax",
+        "combotext": "NA",
+        "slider1": "Reasons for Pfizer over NoVax",
+        "slider2": "Reasons for NoVax over Pfizer",
+        "vertical1": "Pfizer/BioNTech (2 doses, age 18+)",
+        "vertical2": "No vaccine"
+      },
+      {
+        "option1": "PfizerAdo",
+        "option2": "NoVax",
+        "combotext": "NA",
+        "slider1": "Reasons for PfizerAdo over NoVax",
+        "slider2": "Reasons for NoVax over PfizerAdo",
+        "vertical1": "Pfizer/BioNTech (2 doses, age 12-17)",
+        "vertical2": "No vaccine"
+      }
+    ]
+  },
+  "avatar": {
+    "currentLanguage": "en",
+    "homeTitle": "What role does each of us play in protecting our community ?",
+    "homeSubTitle": "An interactive visualization ",
+    "homeBtnContinue": "Start ",
+    "continueBtn": "Continue",
+    "saveBtn": "Save",
+    "saveEditBtn": "Save edit",
+    "cancelBtn": "Cancel",
+    "resetAllBtn": "Reset all",
+    "pageTitle": "Build your community",
+    "subtitle": "Your community",
+    "finalInfo": "Press the button to go to the animation",
+    "skinColorTab": "Skin color",
+    "hairColorTab": "Hair color",
+    "glassesTab": "Glasses",
+    "facialHairTab": "Facial hair",
+    "contextualInfoAvatar": "Select and customize a character that represents you (your avatar).",
+    "nowSelect": "Now create the avatars of",
+    "selectVulnerable": "people around you who are vulnerable to diseases, i.e. they can catch diseases more easily or diseases can make them sicker (e.g. babies, the elderly, people with health problems (cancer, diabetes, asthma, etc.)).",
+    "vulnerableDesc": "Now create the avatars of ### people around you who are vulnerable to diseases, i.e. they can catch diseases more easily or diseases can make them sicker (e.g. babies, the elderly, people with health problems (cancer, diabetes, asthma, etc.)).",
+    "othersDesc": "Finally, choose and customize ### other avatars. These represent other people around you.",
+    "finallySelect": "Finally, choose and customize",
+    "selectOthersPeople": "other avatars. These represent other people around you.",
+    "avatar": "your avatar",
+    "vulnerable": "a vulnerable person",
+    "otherPeople": "a person around you",
+    "language": "Français",
+    "createAvatar": "Create",
+    "editAvatar": "Edit",
+    "startAnimation": "Start animation & sound",
+    "restartAnimation": "Replay the animation",
+    "redirectSurvey": "Return to survey",
+    "nameInputLabel": "Name",
+    "nameInputPlaceHolder": "Name your avatar",
+    "totalCharacterCount": "avatars made: ",
+    "defaultCharacterName": "Person",
+    "displayCaptions": "Display captions",
+    "avatarName": "Your avatar",
+    "categories": [
+      "You",
+      "Vulnerable people",
+      "People around you"
+    ],
+    "categoriesAutogenerated": [
+      "You",
+      "Vulnerable people",
+      "People around you"
+    ],
+    "reason": "Reasons",
+    "vulnerableDescription": "Why is this person at greater risk? This person is: (check all that apply)",
+    "sameCharacters": "Same Characters",
+    "differentCharacters": "Random Characters",
+    "moreColor": "More Colours",
+    "addColor": "Add color",
+    "cancelSpectrumColor": "Cancel",
+    "None": "None",
+    "changeAvatar": "Change avatar",
+    "selectAvatar": "Select a new avatar to replace the current one",
+    "replaceYourAvatar": "Replace your avatar",
+    "replaceYourVulnerable": "Replace your vulnerable person",
+    "replaceYourComm": "Replace a person around you",
+    "doneButton": "Done",
+    "stepsMakingAvatar": [
+      {
+        "title": "Build your avatar",
+        "description": "Choose a character that looks like you."
+      },
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "commentary": "----------------------------------------------------------------------------------",
+    "vulnerableOptions": [
+      {
+        "name": "Younger people (babies, young children)",
+        "id": 0
+      },
+      {
+        "name": "Older person (senior)",
+        "id": 1
+      },
+      {
+        "name": "A person with a more fragile immune system (cancer, diabetes, or other conditions)",
+        "id": 2
+      }
+    ],
+    "dialogTitle": "Welcome",
+    "dialogTexte": "This application is optimized for iOS, Android, Chrome, Firefox, Safari, Opera with the view set at 100% zoom. Other browsers (e.g., Internet Explorer, Microsoft Edge) are not currently supported.",
+    "dialogbtn": "Ok",
+    "notFoundText": "The page you are looking for does not exist.",
+    "redirectHomeBtn": "Back to home page"
+  },
+  "evidence": {
+    "Header": [
+      {
+        "HeaderText": "About the vaccine & how it works"
+      },
+      {
+        "HeaderText": "How the vaccine was developed and made"
+      },
+      {
+        "HeaderText": "How and where the vaccine was tested"
+      },
+      {
+        "HeaderText": "Chance of getting Covid-19"
+      },
+      {
+        "HeaderText": "Chance of hospitalization due to Covid-19"
+      },
+      {
+        "HeaderText": "Chance of death due to Covid-19"
+      },
+      {
+        "HeaderText": "Chance of blood clots"
+      },
+      {
+        "HeaderText": "Chance of other side effects"
+      },
+      {
+        "HeaderText": "Real-world effectiveness (including against variants)"
+      },
+      {
+        "HeaderText": "Long-term effects"
+      },
+      {
+        "HeaderText": "Specific groups: older adults"
+      },
+      {
+        "HeaderText": "Specific groups: pregnancy"
+      },
+      {
+        "HeaderText": "Specific groups: children"
+      },
+      {
+        "HeaderText": "Specific groups: immunocompromised people"
+      },
+      {
+        "HeaderText": "Specific groups: people who should not get this vaccine"
+      }
+    ],
+    "c19vaxda": {
+      "Pfizer": {
+        "VaxName": "Pfizer/BioNTech (18+)",
+        "ControlName": "No vaccine",
+        "VaxDescription": "The Pfizer/BioNTech vaccine was approved by Health Canada on December 9, 2020 for people 16 years old and older. It was approved by Health Canada on May 4, 2021 for children aged 12 to 15 years old.<br><br>It is a 2-dose messenger RNA (mRNA) vaccine. Messenger RNA means the vaccine gives your body instructions to make a part of the Covid-19 virus that is harmless on its own. Your body then learns to fight off that part of the virus. If your body encounters the full virus later, it knows how to destroy the part it already recognizes. Without its missing part, the virus cannot survive.<br><br>Messenger RNA does not last in the body. The vaccine does not change your DNA.",
+        "ControlNA": "Not applicable (no vaccine)",
+        "PrimaryOutcome": "\"symptomatic COVID-19 infection confirmed by Polymerase Chain Reaction (PCR) and by a clinical adjudication committee. The population for the analysis of the primary efficacy endpoint included participants who did not have evidence of prior infection with SARSCoV-2 through 14 days after the second dose.\"",
+        "TxDenominator": 18196,
+        "TxNumerator": 8,
+        "ControlDenominator": 18337,
+        "ControlNumerator": 162,
+        "content": [
+          {
+            "Tile": "About the vaccine & how it works",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "The The Moderna  vaccine is a 2-dose messenger RNA (mRNA) vaccine. Messenger RNA means the vaccine gives your body instructions for how to make a part of the Covid-19 virus (the \"spike protein\" on the outside of the virus) that is harmless on its own. Your body makes that harmless part of the virus. When your immune system runs into that new thing that it does not recognize as being part of you, your immune system figures out how to destroy the part. When the immune system has fought off the part once, if it encounters the full virus later, it knows how to destroy the part it already recognizes. Without its missing part, the virus cannot survive.<br><br>Messenger RNA does not last in the body. Once your immune system has learned to recognize the virus, it doesn't need the messenger RNA anymore. The vaccine does not change your DNA.<br><br>This vaccine requires two doses to provide full protection, because your immune system may need a reminder to make sure it recognizes and knows how to fight off the virus. ",
+            "ControlPara": "With no vaccine, you do not have this additional protection.",
+            "VaxVsVaxPara": "The Moderna vaccine is a 2-dose messenger RNA (mRNA) vaccine. Messenger RNA means the vaccine gives your body instructions for how to make a part of the Covid-19 virus (the \"spike protein\" on the outside of the virus) that is harmless on its own. Your body makes that harmless part of the virus. When your immune system runs into that new thing that it does not recognize as being part of you, your immune system figures out how to destroy the part. When the immune system has fought off the part once, if it encounters the full virus later, it knows how to destroy the part it already recognizes. Without its missing part, the virus cannot survive.<br><br>Messenger RNA does not last in the body. Once your immune system has learned to recognize the virus, it doesn't need the messenger RNA anymore. The vaccine does not change your DNA.<br><br>This vaccine requires two doses to provide full protection, because your immune system may need a reminder to make sure it recognizes and knows how to fight off the virus. ",
+            "MoreInfoLink": "https://covid-vaccine.canada.ca/info/summary-basis-decision-detailTwo.html?linkID=SBD00510",
+            "MoreInfoText": "Health Canada's page showing all the scientific information about the vaccine"
+          },
+          {
+            "Tile": "How the vaccine was developed and made",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "Building on decades of science on messenger RNA and previous efforts to develop vaccines for other coronaviruses, ZZZ TEXT STILL TO WRITE",
+            "ControlPara": "Not applicable (no vaccine)",
+            "VaxVsVaxPara": "Building on decades of science on messenger RNA and previous efforts to develop vaccines for other coronaviruses, ZZZ TEXT STILL TO WRITE",
+            "MoreInfoLink": "",
+            "MoreInfoText": ""
+          },
+          {
+            "Tile": "How and where the vaccine was tested",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "The Moderna vaccine was tested among those <b>16 years and older</b> from [date] to [date] in [places]. The people in the study were people aged 16 years and older. The group included a broad mix of people. About half were male and about half were female. The group included people who were over 65 years old, who were pregnant, who had chronic illnesses, as well as many people who were younger, not pregnant, and who had no chronic illnesses. There were 36533 people in the study in total: 18196 who were randomly chosen to get two doses of the vaccine.<br><br>Then, the vaccine was tested among people <b>12 to 15 years old</b> from [date] to [date] in [places]. In the second study, the people in the study were 12 to 15 years old. ZZZ ADD MORE DETAILS",
+            "TxPara.comments": "was HowWhereTestedTx",
+            "ControlPara": "The other 18337 people were randomly chosen to get two doses of a needle filled with sterile salt water. The needle filled with salt water is called a placebo. The people in the study were not told until after the study was over whether they had gotten the vaccine or the placebo. The people who had gotten the placebo had the chance to get the vaccine after the study was over.",
+            "ControlPara.comments": "was HowWhereTestedControl",
+            "VaxVsVaxPara": "The Moderna vaccine was tested among those <b>16 years and older</b> from [date] to [date] in [places]. The people in the study were people aged 16 years and older. The group included a broad mix of people. About half were male and about half were female. The group included people who were over 65 years old, who were pregnant, who had chronic illnesses, as well as many people who were younger, not pregnant, and who had no chronic illnesses. There were 36533 people in the study in total: 18196 who were randomly chosen to get two doses of the vaccine, and 18337 who were randomly chosen to get two doses of a needle filled with sterile salt water. The needle filled with salt water is called a placebo. The people in the study were not told until after the study was over whether they had gotten the vaccine or the placebo. The people who had gotten the placebo had the chance to get the vaccine after the study was over.<br><br>Then, the vaccine was tested among people <b>12 to 15 years old</b> from [date] to [date] in [places]. In the second study, the people in the study were 12 to 15 years old. ZZZ ADD MORE DETAILS",
+            "VaxVsVaxPara.comments": "was HowWhereTestedBoth",
+            "MoreInfoLink": "",
+            "MoreInfoText": ""
+          },
+          {
+            "Tile": "Chance of getting Covid-19",
+            "IconArray": true,
+            "IconArrayBase": 100,
+            "IconArrayColour": "#0000FF",
+            "IconArrayPer": 10000,
+            "TxIcons": 8,
+            "ControlIcons": 131,
+            "VaxVsVaxIcons": 8,
+            "TxPara": "For every 10,000 people who were randomized to get two doses of the vaccine, 4 got Covid.",
+            "ControlPara": "For every 10,000 people who were randomized to get two doses of salt water (placebo), 88 got Covid.",
+            "VaxVsVaxPara": "For every 10,000 people who were randomized to get two doses of the vaccine, 4 got Covid.",
+            "MoreInfoLink": "",
+            "MoreInfoText": "You may have already heard about this vaccine being 95% effective against getting Covid. This is because 4/88 = 5% and 100% - 5% = 5%. Vaccine effectiveness is the percent reduction in cases among people who got the vaccine compared to people who didn't get the vaccine."
+          },
+          {
+            "Tile": "Chance of hospitalization due to Covid-19",
+            "IconArray": true,
+            "IconArrayBase": 100,
+            "IconArrayColour": "#0000FF",
+            "IconArrayPer": 100000,
+            "TxIcons": 0,
+            "ControlIcons": 54,
+            "ControlIconsComments": "Need to look up real data",
+            "VaxVsVaxIcons": 0,
+            "TxPara": "For every 100,000 people who were randomized to get two doses of the vaccine, 0 were hospitalized due to Covid.",
+            "ControlPara": "For every 100,000 people who were randomized to get two doses of salt water (placebo), 54 were hospitalized due to Covid.",
+            "VaxVsVaxPara": "For every 100,000 people who were randomized to get two doses of the vaccine, 0 were hospitalized due to Covid.",
+            "MoreInfoLink": "",
+            "MoreInfoText": "You may have already heard about this vaccine being 100% effective against hospitalization due to Covid. This is because 0/54 = 0%, and 100% - 0% = 100%. Vaccine effectiveness against hospitalization is the percent reduction in hospitalization among people who got the vaccine compared to people who didn't get the vaccine."
+          },
+          {
+            "Tile4": "Chance of death due to Covid-19",
+            "IconArray": true,
+            "IconArrayBase": 100,
+            "IconArrayColour": "#0000FF",
+            "IconArrayPer": 100000,
+            "TxIcons": 0,
+            "ControlIcons": 7,
+            "VaxVsVaxIcons": 0,
+            "TxPara": "For every 100,000 people who were randomized to get two doses of the vaccine, 0 died due to Covid.",
+            "ControlPara": "For every 100,000 people who were randomized to get two doses of salt water (placebo), 8 died due to Covid.",
+            "VaxVsVaxPara": "For every 100,000 people who were randomized to get two doses of the vaccine, 0 died due to Covid.",
+            "MoreInfoLink": "",
+            "MoreInfoText": "You may have already heard about this vaccine being 100% effective against hospitalization due to Covid. This is because 0/8 = 0%, and 100% - 0% = 100%. Vaccine effectiveness against death is the percent reduction in hospitalization among people who got the vaccine compared to people who didn't get the vaccine."
+          },
+          {
+            "Tile": "Chance of blood clots",
+            "IconArray": true,
+            "IconArrayBase": 100,
+            "IconArrayColour": "#0000FF",
+            "IconArrayPer": 100000,
+            "TxIcons": 0,
+            "ControlIcons": 0,
+            "VaxVsVaxIcons": 0,
+            "TxPara": "For every 100,000 people who were randomized to get two doses of the vaccine, 0 had blood clots due to the vaccine.",
+            "ControlPara": "For every 100,000 people who were randomized to get two doses of salt water (placebo), 0 had blood clots due to Covid.",
+            "VaxVsVaxPara": "For every 100,000 people who were randomized to get two doses of the vaccine, 0 had blood clots due to the vaccine.",
+            "MoreInfoLink": "",
+            "MoreInfoText": ""
+          },
+          {
+            "Tile": "Chance of other side effects",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "zzz",
+            "ControlPara": "zzz",
+            "VaxVsVaxPara": "zzz",
+            "MoreInfoLink": "",
+            "MoreInfoText": ""
+          },
+          {
+            "Tile": "Real-world effectiveness (including against variants)",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "<b>The Pfizer vaccine was shown to be ZZZ% effective against the Alpha variant in a study in the UK.</b><br><br>More details about study ...<a href=\"linkhere\">link to study</a><br><br><b>Study 2</b>",
+            "ControlPara": "zzz",
+            "VaxVsVaxPara": "zzz",
+            "MoreInfoLink": "",
+            "MoreInfoText": ""
+          },
+          {
+            "Tile": "Long-term effects",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "zzz",
+            "ControlPara": "zzz",
+            "VaxVsVaxPara": "zzz",
+            "MoreInfoLink": "",
+            "MoreInfoText": ""
+          },
+          {
+            "Tile": "Specific groups: older adults",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "zzz",
+            "ControlPara": "zzz",
+            "VaxVsVaxPara": "zzz",
+            "MoreInfoLink": "",
+            "MoreInfoText": ""
+          },
+          {
+            "Tile": "Specific groups: pregnancy",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "zzz",
+            "ControlPara": "zzz",
+            "VaxVsVaxPara": "zzz",
+            "MoreInfoLink": "",
+            "MoreInfoText": ""
+          },
+          {
+            "Tile": "Specific groups: children",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "zzz",
+            "ControlPara": "zzz",
+            "VaxVsVaxPara": "zzz",
+            "MoreInfoLink": "",
+            "MoreInfoText": ""
+          },
+          {
+            "Tile": "Specific groups: immunocompromised people",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "zzz",
+            "ControlPara": "zzz",
+            "VaxVsVaxPara": "zzz",
+            "MoreInfoLink": "",
+            "MoreInfoText": ""
+          },
+          {
+            "Tile": "Specific groups: people who should not get this vaccine",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "People who should not get this vaccine: those who are allergic to the active substance or to any ingredients in the vaccine. ZZZ ADD LINK TO PAGE WITH INGREDIENTS",
+            "ControlPara": "Not applicable (no vaccine)",
+            "VaxVsVaxPara": "People who should not get this vaccine: those who are allergic to the active substance or to any ingredients in the vaccine. ZZZ ADD LINK TO PAGE WITH INGREDIENTS",
+            "MoreInfoLink": "",
+            "MoreInfoText": ""
+          }
+        ]
+      },
+      "PfizerAdo": {
+        "VaxName": "Pfizer/BioNTech (12-17)",
+        "ControlName": "No vaccine",
+        "VaxDescription": "The Pfizer/BioNTech vaccine was approved by Health Canada on December 9, 2020 for people 16 years old and older. It was approved by Health Canada on May 4, 2021 for children aged 12 to 15 years old.<br><br>It is a 2-dose messenger RNA (mRNA) vaccine. Messenger RNA means the vaccine gives your body instructions to make a part of the Covid-19 virus that is harmless on its own. Your body then learns to fight off that part of the virus. If your body encounters the full virus later, it knows how to destroy the part it already recognizes. Without its missing part, the virus cannot survive.<br><br>Messenger RNA does not last in the body. The vaccine does not change your DNA.",
+        "ControlNA": "Not applicable (no vaccine)",
+        "PrimaryOutcome": "\"First case of SARS‑CoV‑2 virologically confirmed symptomatic COVID‑19 occurring ≥15 days post Dose 2\"",
+        "TxDenominator": 18196,
+        "TxNumerator": 8,
+        "ControlDenominator": 18337,
+        "ControlNumerator": 162,
+        "content": [
+          {
+            "Tile": "About the vaccine & how it works",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "Moderna vaccine is a 2-dose messenger RNA (mRNA) vaccine. Messenger RNA means the vaccine gives your body instructions for how to make a part of the Covid-19 virus (the \"spike protein\" on the outside of the virus) that is harmless on its own. Your body makes that harmless part of the virus. When your immune system runs into that new thing that it does not recognize as being part of you, your immune system figures out how to destroy the part. When the immune system has fought off the part once, if it encounters the full virus later, it knows how to destroy the part it already recognizes. Without its missing part, the virus cannot survive.<br><br>Messenger RNA does not last in the body. Once your immune system has learned to recognize the virus, it doesn't need the messenger RNA anymore. The vaccine does not change your DNA.<br><br>This vaccine requires two doses to provide full protection, because your immune system may need a reminder to make sure it recognizes and knows how to fight off the virus. ",
+            "ControlPara": "With no vaccine, you do not have this additional protection.",
+            "VaxVsVaxPara": "The AstraZeneca vaccine is a 2-dose viral vector vaccine used to prevent COVID-19. Viral vector vaccines use a harmless virus to deliver instructions to your immune system. The vector virus is NOT the virus that causes COVID-19 and cannot give you COVID-19. The vaccine does not change your DNA.<br><br>This vaccine requires two doses to provide full protection, because your immune system may need a reminder to make sure it recognizes and knows how to fight off the virus. ",
+            "MoreInfoLink": "https://covid-vaccine.canada.ca/info/summary-basis-decision-detailTwo.html?linkID=SBD00510",
+            "MoreInfoText": "Health Canada's page showing all the scientific information about the vaccine"
+          },
+          {
+            "Tile": "How the vaccine was developed and made",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "Building on decades of science on viral vector vaccine and previous efforts to develop vaccines for other diseases, ZZZ TEXT STILL TO WRITE",
+            "ControlPara": "Not applicable (no vaccine)",
+            "VaxVsVaxPara": "Building on decades of science on messenger RNA and previous efforts to develop vaccines for other coronaviruses, ZZZ TEXT STILL TO WRITE",
+            "MoreInfoLink": "",
+            "MoreInfoText": ""
+          },
+          {
+            "Tile": "How and where the vaccine was tested",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "The Moderna vaccine was tested among those <b>16 years and older</b> from [date] to [date] in [places]. The people in the study were people aged 16 years and older. The group included a broad mix of people. About half were male and about half were female. The group included people who were over 65 years old, who were pregnant, who had chronic illnesses, as well as many people who were younger, not pregnant, and who had no chronic illnesses. There were 36533 people in the study in total: 18196 who were randomly chosen to get two doses of the vaccine.<br><br>Then, the vaccine was tested among people <b>12 to 15 years old</b> from [date] to [date] in [places]. In the second study, the people in the study were 12 to 15 years old. ZZZ ADD MORE DETAILS",
+            "ControlPara": "The other 18337 people were randomly chosen to get two doses of a needle filled with sterile salt water. The needle filled with salt water is called a placebo. The people in the study were not told until after the study was over whether they had gotten the vaccine or the placebo. The people who had gotten the placebo had the chance to get the vaccine after the study was over.",
+            "VaxVsVaxPara": "The Moderna vaccine was tested among those <b>16 years and older</b> from [date] to [date] in [places]. The people in the study were people aged 16 years and older. The group included a broad mix of people. About half were male and about half were female. The group included people who were over 65 years old, who were pregnant, who had chronic illnesses, as well as many people who were younger, not pregnant, and who had no chronic illnesses. There were 36533 people in the study in total: 18196 who were randomly chosen to get two doses of the vaccine, and 18337 who were randomly chosen to get two doses of a needle filled with sterile salt water. The needle filled with salt water is called a placebo. The people in the study were not told until after the study was over whether they had gotten the vaccine or the placebo. The people who had gotten the placebo had the chance to get the vaccine after the study was over.<br><br>Then, the vaccine was tested among people <b>12 to 15 years old</b> from [date] to [date] in [places]. In the second study, the people in the study were 12 to 15 years old. ZZZ ADD MORE DETAILS",
+            "MoreInfoLink": "",
+            "MoreInfoText": ""
+          },
+          {
+            "Tile": "Chance of getting Covid-19",
+            "IconArray": true,
+            "IconArrayBase": 100,
+            "IconArrayColour": "#0000FF",
+            "IconArrayPer": 10000,
+            "TxIcons": 8,
+            "ControlIcons": 131,
+            "VaxVsVaxIcons": 8,
+            "TxPara": "For every 10,000 people who were randomized to get two doses of the vaccine, 4 got Covid.",
+            "ControlPara": "For every 10,000 people who were randomized to get two doses of salt water (placebo), 88 got Covid.",
+            "VaxVsVaxPara": "For every 10,000 people who were randomized to get two doses of the vaccine, 4 got Covid.",
+            "MoreInfoLink": "",
+            "MoreInfoText": "You may have already heard about this vaccine being 95% effective against getting Covid. This is because 4/88 = 5% and 100% - 5% = 5%. Vaccine effectiveness is the percent reduction in cases among people who got the vaccine compared to people who didn't get the vaccine."
+          },
+          {
+            "Tile": "Chance of hospitalization due to Covid-19",
+            "IconArray": true,
+            "IconArrayBase": 100,
+            "IconArrayColour": "#0000FF",
+            "IconArrayPer": 100000,
+            "TxIcons": 0,
+            "ControlIcons": 54,
+            "VaxVsVaxIcons": 0,
+            "TxPara": "For every 100,000 people who were randomized to get two doses of the vaccine, 0 were hospitalized due to Covid.",
+            "ControlPara": "For every 100,000 people who were randomized to get two doses of salt water (placebo), 54 were hospitalized due to Covid.",
+            "VaxVsVaxPara": "For every 100,000 people who were randomized to get two doses of the vaccine, 0 were hospitalized due to Covid.",
+            "MoreInfoLink": "",
+            "MoreInfoText": "You may have already heard about this vaccine being 100% effective against hospitalization due to Covid. This is because 0/54 = 0%, and 100% - 0% = 100%. Vaccine effectiveness against hospitalization is the percent reduction in hospitalization among people who got the vaccine compared to people who didn't get the vaccine."
+          },
+          {
+            "Tile": "Chance of death due to Covid-19",
+            "IconArray": true,
+            "IconArrayBase": 100,
+            "IconArrayColour": "#0000FF",
+            "IconArrayPer": 100000,
+            "TxIcons": 0,
+            "ControlIcons": 7,
+            "VaxVsVaxIcons": 0,
+            "TxPara": "For every 100,000 people who were randomized to get two doses of the vaccine, 0 died due to Covid.",
+            "ControlPara": "For every 100,000 people who were randomized to get two doses of salt water (placebo), 8 died due to Covid.",
+            "VaxVsVaxPara": "For every 100,000 people who were randomized to get two doses of the vaccine, 0 died due to Covid.",
+            "MoreInfoLink": "",
+            "MoreInfoText": "You may have already heard about this vaccine being 100% effective against hospitalization due to Covid. This is because 0/8 = 0%, and 100% - 0% = 100%. Vaccine effectiveness against death is the percent reduction in hospitalization among people who got the vaccine compared to people who didn't get the vaccine."
+          },
+          {
+            "Tile": "Chance of blood clots",
+            "IconArray": true,
+            "IconArrayBase": 100,
+            "IconArrayColour": "#0000FF",
+            "IconArrayPer": 100000,
+            "TxIcons": 0,
+            "ControlIcons": 0,
+            "VaxVsVaxIcons": 0,
+            "TxPara": "For every 100,000 people who were randomized to get two doses of the vaccine, 0 had blood clots due to the vaccine.",
+            "ControlPara": "For every 100,000 people who were randomized to get two doses of salt water (placebo), 0 had blood clots due to Covid.",
+            "VaxVsVaxPara": "For every 100,000 people who were randomized to get two doses of the vaccine, 0 had blood clots due to the vaccine.",
+            "MoreInfoLink": "",
+            "MoreInfoText": ""
+          },
+          {
+            "Tile": "Chance of other side effects",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "zzz",
+            "ControlPara": "zzz",
+            "VaxVsVaxPara": "zzz",
+            "MoreInfoLink": "",
+            "MoreInfoText": ""
+          },
+          {
+            "Tile": "Real-world effectiveness (including against variants)",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "<b>The Pfizer vaccine was shown to be ZZZ% effective against the Alpha variant in a study in the UK.</b><br><br>More details about study ...<a href=\"linkhere\">link to study</a><br><br><b>Study 2</b>",
+            "ControlPara": "zzz",
+            "VaxVsVaxPara": "zzz",
+            "MoreInfoLink": "",
+            "MoreInfoText": ""
+          },
+          {
+            "Tile": "Long-term effects",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "zzz",
+            "ControlPara": "zzz",
+            "VaxVsVaxPara": "zzz",
+            "MoreInfoLink": "",
+            "MoreInfoText": ""
+          },
+          {
+            "Tile": "Specific groups: older adults",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "zzz",
+            "ControlPara": "zzz",
+            "VaxVsVaxPara": "zzz",
+            "MoreInfoLink": "",
+            "MoreInfoText": ""
+          },
+          {
+            "Tile": "Specific groups: pregnancy",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "zzz",
+            "ControlPara": "zzz",
+            "VaxVsVaxPara": "zzz",
+            "MoreInfoLink": "",
+            "MoreInfoText": ""
+          },
+          {
+            "Tile": "Specific groups: children",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "zzz",
+            "ControlPara": "zzz",
+            "VaxVsVaxPara": "zzz",
+            "MoreInfoLink": "",
+            "MoreInfoText": ""
+          },
+          {
+            "Tile": "Specific groups: immunocompromised people",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "zzz",
+            "ControlPara": "zzz",
+            "VaxVsVaxPara": "zzz",
+            "MoreInfoLink": "",
+            "MoreInfoText": ""
+          },
+          {
+            "Tile": "Specific groups: people who should not get this vaccine",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "People who should not get this vaccine: those who are allergic to the active substance or to any ingredients in the vaccine. ZZZ ADD LINK TO PAGE WITH INGREDIENTS",
+            "ControlPara": "Not applicable (no vaccine)",
+            "VaxVsVaxPara": "People who should not get this vaccine: those who are allergic to the active substance or to any ingredients in the vaccine. ZZZ ADD LINK TO PAGE WITH INGREDIENTS",
+            "MoreInfoLink": "",
+            "MoreInfoText": ""
+          }
+        ]
+      },
+      "Moderna": {
+        "VaxName": "Moderna (12+)",
+        "VaxName.comments": "Still to do: put in data for Moderna",
+        "ControlName": "No vaccine",
+        "VaxDescription": "The Moderna vaccine was approved in Canada on December 23, 2020 for people 18 years old and older.<br><br>It can be stored at less extreme temperatures (-20 degrees C) and is therefore easier to transport to remote locations compared to the Pfizer/BioNTech vaccine. It is currently available in all provinces and territories. It is a 2-dose messenger RNA (mRNA) vaccine.<br><br>Messenger RNA means the vaccine gives your body instructions to make a part of the Covid-19 virus that is harmless on its own. Your body then learns to fight off that part of the virus. If your body encounters the full virus later, it knows how to destroy the part it already knows. Without its missing part, the virus cannot survive.<br><br>The vaccine does not change your DNA.",
+        "ControlNA": "Not applicable (no vaccine)",
+        "PrimaryOutcome": "\"Incidence of Covid‑19 per 1,000 person‑years of follow‑up in participants without evidence of prior infection with SARS‑CoV‑2, up to seven days after the administration of Dose 2 of the vaccine\"",
+        "TxDenominator": 18196,
+        "TxNumerator": 8,
+        "ControlDenominator": 18337,
+        "ControlNumerator": 162,
+        "content": [
+          {
+            "Tile": "About the vaccine & how it works",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "The Moderna vaccine is a 2-dose messenger RNA (mRNA) vaccine. Messenger RNA means the vaccine gives your body instructions for how to make a part of the Covid-19 virus (the \"spike protein\" on the outside of the virus) that is harmless on its own. Your body makes that harmless part of the virus. When your immune system runs into that new thing that it does not recognize as being part of you, your immune system figures out how to destroy the part. When the immune system has fought off the part once, if it encounters the full virus later, it knows how to destroy the part it already recognizes. Without its missing part, the virus cannot survive.<br><br>Messenger RNA does not last in the body. Once your immune system has learned to recognize the virus, it doesn't need the messenger RNA anymore. The vaccine does not change your DNA.<br><br>This vaccine requires two doses to provide full protection, because your immune system may need a reminder to make sure it recognizes and knows how to fight off the virus. ",
+            "TxPara.comments": "revised version of VaxDescription",
+            "ControlPara": "With no vaccine, you do not have this additional protection.",
+            "VaxVsVaxPara": "The Pfizer/BioNTech vaccine is a 2-dose messenger RNA (mRNA) vaccine. Messenger RNA means the vaccine gives your body instructions for how to make a part of the Covid-19 virus (the \"spike protein\" on the outside of the virus) that is harmless on its own. Your body makes that harmless part of the virus. When your immune system runs into that new thing that it does not recognize as being part of you, your immune system figures out how to destroy the part. When the immune system has fought off the part once, if it encounters the full virus later, it knows how to destroy the part it already recognizes. Without its missing part, the virus cannot survive.<br><br>Messenger RNA does not last in the body. Once your immune system has learned to recognize the virus, it doesn't need the messenger RNA anymore. The vaccine does not change your DNA.<br><br>This vaccine requires two doses to provide full protection, because your immune system may need a reminder to make sure it recognizes and knows how to fight off the virus. ",
+            "MoreInfoLink": "https://covid-vaccine.canada.ca/info/summary-basis-decision-detailTwo.html?linkID=SBD00510",
+            "MoreInfoText": "Health Canada's page showing all the scientific information about the vaccine"
+          },
+          {
+            "Tile": "How the vaccine was developed and made",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "Building on decades of science on messenger RNA and previous efforts to develop vaccines for other coronaviruses, ZZZ TEXT STILL TO WRITE",
+            "ControlPara": "Not applicable (no vaccine)",
+            "VaxVsVaxPara": "Building on decades of science on messenger RNA and previous efforts to develop vaccines for other coronaviruses, ZZZ TEXT STILL TO WRITE",
+            "MoreInfoText": "ZZZ ADD TEXT",
+            "MoreInfoLink": ""
+          },
+          {
+            "Tile": "How and where the vaccine was tested",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "The Moderna vaccine was tested among those <b>16 years and older</b> from [date] to [date] in [places]. The people in the study were people aged 16 years and older. The group included a broad mix of people. About half were male and about half were female. The group included people who were over 65 years old, who were pregnant, who had chronic illnesses, as well as many people who were younger, not pregnant, and who had no chronic illnesses. There were 36533 people in the study in total: 18196 who were randomly chosen to get two doses of the vaccine.<br><br>Then, the vaccine was tested among people <b>12 to 15 years old</b> from [date] to [date] in [places]. In the second study, the people in the study were 12 to 15 years old. ZZZ ADD MORE DETAILS",
+            "TxPara.comments": "was HowWhereTestedTx",
+            "ControlPara": "The other 18337 people were randomly chosen to get two doses of a needle filled with sterile salt water. The needle filled with salt water is called a placebo. The people in the study were not told until after the study was over whether they had gotten the vaccine or the placebo. The people who had gotten the placebo had the chance to get the vaccine after the study was over.",
+            "ControlPara.comments": "was HowWhereTestedControl",
+            "VaxVsVaxPara": "The Moderna vaccine was tested among those <b>16 years and older</b> from [date] to [date] in [places]. The people in the study were people aged 16 years and older. The group included a broad mix of people. About half were male and about half were female. The group included people who were over 65 years old, who were pregnant, who had chronic illnesses, as well as many people who were younger, not pregnant, and who had no chronic illnesses. There were 36533 people in the study in total: 18196 who were randomly chosen to get two doses of the vaccine, and 18337 who were randomly chosen to get two doses of a needle filled with sterile salt water. The needle filled with salt water is called a placebo. The people in the study were not told until after the study was over whether they had gotten the vaccine or the placebo. The people who had gotten the placebo had the chance to get the vaccine after the study was over.<br><br>Then, the vaccine was tested among people <b>12 to 15 years old</b> from [date] to [date] in [places]. In the second study, the people in the study were 12 to 15 years old. ZZZ ADD MORE DETAILS",
+            "VaxVsVaxPara.comments": "was HowWhereTestedBoth",
+            "MoreInfoText": "ZZZ ADD TEXT",
+            "MoreInfoLink": ""
+          },
+          {
+            "Tile": "Chance of getting Covid-19",
+            "IconArray": true,
+            "IconArrayBase": 100,
+            "IconArrayColour": "#0000FF",
+            "IconArrayPer": 10000,
+            "TxIcons": 52,
+            "ControlIcons": 173,
+            "VaxVsVaxIcons": 52,
+            "TxPara": "For every 10,000 people who were randomized to get two doses of the vaccine, 4 got Covid.",
+            "ControlPara": "For every 10,000 people who were randomized to get two doses of salt water (placebo), 88 got Covid.",
+            "VaxVsVaxPara": "For every 10,000 people who were randomized to get two doses of the vaccine, 4 got Covid.",
+            "MoreInfoText": "You may have already heard about this vaccine being 95% effective against getting Covid. This is because 4/88 = 5% and 100% - 5% = 5%. Vaccine effectiveness is the percent reduction in cases among people who got the vaccine compared to people who didn't get the vaccine.",
+            "MoreInfoLink": ""
+          },
+          {
+            "Tile": "Chance of hospitalization due to Covid-19",
+            "IconArray": true,
+            "IconArrayBase": 100,
+            "IconArrayColour": "#0000FF",
+            "IconArrayPer": 100000,
+            "TxIcons": 0,
+            "ControlIcons": 54,
+            "VaxVsVaxIcons": 0,
+            "TxPara": "For every 100,000 people who were randomized to get two doses of the vaccine, 0 were hospitalized due to Covid.",
+            "ControlPara": "For every 100,000 people who were randomized to get two doses of salt water (placebo), 54 were hospitalized due to Covid.",
+            "VaxVsVaxPara": "For every 100,000 people who were randomized to get two doses of the vaccine, 0 were hospitalized due to Covid.",
+            "MoreInfoText": "You may have already heard about this vaccine being 100% effective against hospitalization due to Covid. This is because 0/54 = 0%, and 100% - 0% = 100%. Vaccine effectiveness against hospitalization is the percent reduction in hospitalization among people who got the vaccine compared to people who didn't get the vaccine.",
+            "MoreInfoLink": ""
+          },
+          {
+            "Tile": "Chance of death due to Covid-19",
+            "IconArray": true,
+            "IconArrayBase": 100,
+            "IconArrayColour": "#0000FF",
+            "IconArrayPer": 100000,
+            "TxIcons": 0,
+            "ControlIcons": 7,
+            "VaxVsVaxIcons": 0,
+            "TxPara": "For every 100,000 people who were randomized to get two doses of the vaccine, 0 died due to Covid.",
+            "ControlPara": "For every 100,000 people who were randomized to get two doses of salt water (placebo), 8 died due to Covid.",
+            "VaxVsVaxPara": "For every 100,000 people who were randomized to get two doses of the vaccine, 0 died due to Covid.",
+            "MoreInfoText": "You may have already heard about this vaccine being 100% effective against hospitalization due to Covid. This is because 0/8 = 0%, and 100% - 0% = 100%. Vaccine effectiveness against death is the percent reduction in hospitalization among people who got the vaccine compared to people who didn't get the vaccine.",
+            "MoreInfoLink": ""
+          },
+          {
+            "Tile": "Chance of blood clots",
+            "IconArrayc": true,
+            "IconArrayBase": 100,
+            "IconArrayColour": "#0000FF",
+            "IconArrayPer": 100000,
+            "TxIcons": 0,
+            "ControlIcons": 0,
+            "VaxVsVaxIcons": 0,
+            "TxPara": "For every 100,000 people who were randomized to get two doses of the vaccine, 0 had blood clots due to the vaccine.",
+            "ControlPara": "For every 100,000 people who were randomized to get two doses of salt water (placebo), 0 had blood clots due to Covid.",
+            "VaxVsVaxPara": "For every 100,000 people who were randomized to get two doses of the vaccine, 0 had blood clots due to the vaccine.",
+            "MoreInfoText": "",
+            "MoreInfoLink": ""
+          },
+          {
+            "Tile": "Chance of other side effects",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcon": "NA",
+            "VaxVsVaxIcons": "NA",
+            "xPara": "zzz",
+            "ControlPara": "zzz",
+            "VaxVsVaxPara": "zzz",
+            "MoreInfoText": "NA",
+            "MoreInfoLink": ""
+          },
+          {
+            "Tile": "Real-world effectiveness (including against variants)",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "<b>The Pfizer vaccine was shown to be ZZZ% effective against the Alpha variant in a study in the UK.</b><br><br>More details about study ...<a href=\"linkhere\">link to study</a><br><br><b>Study 2</b>",
+            "ControlPara": "zzz",
+            "VaxVsVaxPara": "zzz",
+            "MoreInfoText": "NA",
+            "MoreInfoLink": ""
+          },
+          {
+            "Tile": "Long-term effects",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "zzz",
+            "ControlPara": "zzz",
+            "VaxVsVaxPara": "zzz",
+            "MoreInfoText": "NA",
+            "MoreInfoLink": ""
+          },
+          {
+            "Tile": "Long-term effects",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "zzz",
+            "ControlPara": "zzz",
+            "VaxVsVaxPara": "zzz",
+            "MoreInfoText": "NA",
+            "MoreInfoLink": ""
+          },
+          {
+            "Tile": "Specific groups: older adults",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "zzz",
+            "ControlPara": "zzz",
+            "VaxVsVaxPara": "zzz",
+            "MoreInfoText": "NA",
+            "MoreInfoLink": ""
+          },
+          {
+            "Tile": "Specific groups: pregnancy",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "zzz",
+            "ControlPara": "zzz",
+            "VaxVsVaxPara": "zzz",
+            "MoreInfoText": "NA",
+            "MoreInfoLink": ""
+          },
+          {
+            "Tile": "Specific groups: children",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "zzz",
+            "ControlPara": "zzz",
+            "VaxVsVaxPara": "zzz",
+            "MoreInfoText": "NA",
+            "MoreInfoLink": ""
+          },
+          {
+            "Tile": "Specific groups: immunocompromised people",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "zzz",
+            "ControlPara": "zzz",
+            "VaxVsVaxPara": "zzz",
+            "MoreInfoText": "NA",
+            "MoreInfoLink": ""
+          },
+          {
+            "Tile": "Specific groups: people who should not get this vaccine",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "People who should not get this vaccine: those who are allergic to the active substance or to any ingredients in the vaccine. ZZZ ADD LINK TO PAGE WITH INGREDIENTS",
+            "ControlPara": "Not applicable (no vaccine)",
+            "VaxVsVaxPara": "People who should not get this vaccine: those who are allergic to the active substance or to any ingredients in the vaccine. ZZZ ADD LINK TO PAGE WITH INGREDIENTS",
+            "MoreInfoText": "NA",
+            "MoreInfoLink": ""
+          }
+        ]
+      },
+      "AstraZeneca": {
+        "VaxName": "AstraZeneca (18+)",
+        "comments": "Still to do: put in data for AZ",
+        "ControlName": "No vaccine",
+        "VaxDescription": "The Oxford/AstraZeneca vaccine was approved in Canada on February 26, 2021 for people 18 years old and older.<br><br>It can be stored at regular refrigerator temperatures (2-8 degrees C) and is therefore the easiest to store and transport of all the vaccines as of February 2021. It is currently available in all provinces and territories for people of specific ages (often people aged 40 and up or 45 and up.) It is a 2-dose adenovirus vector vaccine.<br><br>Adenovirus vector means the vaccine uses a harmless virus (not Covid) to get your body instructions to make a part of the Covid-19 virus that is harmless on its own. Your body then learns to fight off that part of the virus. If your body encounters the full virus later, it knows how to destroy the part it already knows. Without its missing part, the virus cannot survive.<br><br>The vaccine does not change your DNA.",
+        "ControlNA": "Not applicable (no vaccine)",
+        "PrimaryOutcome": "\"Incidence of Covid‑19 per 1,000 person‑years of follow‑up in participants without evidence of prior infection with SARS‑CoV‑2, up to seven days after the administration of Dose 2 of the vaccine\"",
+        "TxDenominator": 14134,
+        "TxNumerator": 11,
+        "ControlDenominator": 14073,
+        "ControlNumerator": 185,
+        "content": [
+          {
+            "Tile": "About the vaccine & how it works",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "The Moderna vaccine is a 2-dose messenger RNA (mRNA) vaccine. Messenger RNA means the vaccine gives your body instructions for how to make a part of the Covid-19 virus (the \"spike protein\" on the outside of the virus) that is harmless on its own. Your body makes that harmless part of the virus. When your immune system runs into that new thing that it does not recognize as being part of you, your immune system figures out how to destroy the part. When the immune system has fought off the part once, if it encounters the full virus later, it knows how to destroy the part it already recognizes. Without its missing part, the virus cannot survive.<br><br>Messenger RNA does not last in the body. Once your immune system has learned to recognize the virus, it doesn't need the messenger RNA anymore. The vaccine does not change your DNA.<br><br>This vaccine requires two doses to provide full protection, because your immune system may need a reminder to make sure it recognizes and knows how to fight off the virus. ",
+            "ControlPara": "With no vaccine, you do not have this additional protection.",
+            "VaxVsVaxPara": "The Pfizer/BioNTech vaccine is a 2-dose messenger RNA (mRNA) vaccine. Messenger RNA means the vaccine gives your body instructions for how to make a part of the Covid-19 virus (the \"spike protein\" on the outside of the virus) that is harmless on its own. Your body makes that harmless part of the virus. When your immune system runs into that new thing that it does not recognize as being part of you, your immune system figures out how to destroy the part. When the immune system has fought off the part once, if it encounters the full virus later, it knows how to destroy the part it already recognizes. Without its missing part, the virus cannot survive.<br><br>Messenger RNA does not last in the body. Once your immune system has learned to recognize the virus, it doesn't need the messenger RNA anymore. The vaccine does not change your DNA.<br><br>This vaccine requires two doses to provide full protection, because your immune system may need a reminder to make sure it recognizes and knows how to fight off the virus. ",
+            "MoreInfoText": "NA",
+            "MoreInfoLink": "<a href=\"https://covid-vaccine.canada.ca/info/summary-basis-decision-detailTwo.html?linkID=SBD00510\" target=\"_blank\">Health Canada's page showing all the scientific information about the vaccine</a>"
+          },
+          {
+            "Tile4.02": "How the vaccine was developed and made",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "Building on decades of science on messenger RNA and previous efforts to develop vaccines for other coronaviruses, ZZZ TEXT STILL TO WRITE",
+            "ControlPara": "Not applicable (no vaccine)",
+            "VaxVsVaxPara": "Building on decades of science on messenger RNA and previous efforts to develop vaccines for other coronaviruses, ZZZ TEXT STILL TO WRITE",
+            "MoreInfoText": "ZZZ ADD TEXT",
+            "MoreInfoLink": ""
+          },
+          {
+            "Tile": "How and where the vaccine was tested",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "The Moderna vaccine was tested among those <b>16 years and older</b> from [date] to [date] in [places]. The people in the study were people aged 16 years and older. The group included a broad mix of people. About half were male and about half were female. The group included people who were over 65 years old, who were pregnant, who had chronic illnesses, as well as many people who were younger, not pregnant, and who had no chronic illnesses. There were 36533 people in the study in total: 18196 who were randomly chosen to get two doses of the vaccine.<br><br>Then, the vaccine was tested among people <b>12 to 15 years old</b> from [date] to [date] in [places]. In the second study, the people in the study were 12 to 15 years old. ZZZ ADD MORE DETAILS",
+            "ControlPara": "The other 18337 people were randomly chosen to get two doses of a needle filled with sterile salt water. The needle filled with salt water is called a placebo. The people in the study were not told until after the study was over whether they had gotten the vaccine or the placebo. The people who had gotten the placebo had the chance to get the vaccine after the study was over.",
+            "VaxVsVaxPara": "The Moderna vaccine was tested among those <b>16 years and older</b> from [date] to [date] in [places]. The people in the study were people aged 16 years and older. The group included a broad mix of people. About half were male and about half were female. The group included people who were over 65 years old, who were pregnant, who had chronic illnesses, as well as many people who were younger, not pregnant, and who had no chronic illnesses. There were 36533 people in the study in total: 18196 who were randomly chosen to get two doses of the vaccine, and 18337 who were randomly chosen to get two doses of a needle filled with sterile salt water. The needle filled with salt water is called a placebo. The people in the study were not told until after the study was over whether they had gotten the vaccine or the placebo. The people who had gotten the placebo had the chance to get the vaccine after the study was over.<br><br>Then, the vaccine was tested among people <b>12 to 15 years old</b> from [date] to [date] in [places]. In the second study, the people in the study were 12 to 15 years old. ZZZ ADD MORE DETAILS",
+            "MoreInfoText": "ZZZ ADD TEXT",
+            "MoreInfoLink": ""
+          },
+          {
+            "Tile": "Chance of getting Covid-19",
+            "IconArray": true,
+            "IconArrayBase": 100,
+            "IconArrayColour": "#0000FF",
+            "IconArrayPer": 10000,
+            "TxIcons": 8,
+            "ControlIcons": 131,
+            "VaxVsVaxIcons": 8,
+            "TxPara": "For every 10,000 people who were randomized to get two doses of the vaccine, 4 got Covid.",
+            "ControlPara": "For every 10,000 people who were randomized to get two doses of salt water (placebo), 88 got Covid.",
+            "VaxVsVaxPara": "For every 10,000 people who were randomized to get two doses of the vaccine, 4 got Covid.",
+            "MoreInfoText": "You may have already heard about this vaccine being 95% effective against getting Covid. This is because 4/88 = 5% and 100% - 5% = 5%. Vaccine effectiveness is the percent reduction in cases among people who got the vaccine compared to people who didn't get the vaccine.",
+            "MoreInfoLink": ""
+          },
+          {
+            "Tile": "Chance of hospitalization due to Covid-19",
+            "IconArray": true,
+            "IconArrayBase": 100,
+            "IconArrayColour": "#0000FF",
+            "IconArrayPer": 100000,
+            "TxIcons": 0,
+            "ControlIcons": 54,
+            "VaxVsVaxIcons": 0,
+            "TxPara": "For every 100,000 people who were randomized to get two doses of the vaccine, 0 were hospitalized due to Covid.",
+            "ControlPara": "For every 100,000 people who were randomized to get two doses of salt water (placebo), 54 were hospitalized due to Covid.",
+            "VaxVsVaxPara": "For every 100,000 people who were randomized to get two doses of the vaccine, 0 were hospitalized due to Covid.",
+            "MoreInfoText": "You may have already heard about this vaccine being 100% effective against hospitalization due to Covid. This is because 0/54 = 0%, and 100% - 0% = 100%. Vaccine effectiveness against hospitalization is the percent reduction in hospitalization among people who got the vaccine compared to people who didn't get the vaccine.",
+            "MoreInfoLink": ""
+          },
+          {
+            "Tile": "Chance of death due to Covid-19",
+            "IconArray": true,
+            "IconArrayBase": 100,
+            "IconArrayColour": "#0000FF",
+            "IconArrayPer": 100000,
+            "TxIcons": 0,
+            "ControlIcons": 7,
+            "VaxVsVaxIcons": 0,
+            "TxPara": "For every 100,000 people who were randomized to get two doses of the vaccine, 0 died due to Covid.",
+            "ControlPara": "For every 100,000 people who were randomized to get two doses of salt water (placebo), 8 died due to Covid.",
+            "VaxVsVaxPara": "For every 100,000 people who were randomized to get two doses of the vaccine, 0 died due to Covid.",
+            "MoreInfoText": "You may have already heard about this vaccine being 100% effective against hospitalization due to Covid. This is because 0/8 = 0%, and 100% - 0% = 100%. Vaccine effectiveness against death is the percent reduction in hospitalization among people who got the vaccine compared to people who didn't get the vaccine.",
+            "MoreInfoLink": ""
+          },
+          {
+            "Tile": "Chance of blood clots",
+            "IconArray": true,
+            "IconArrayBase": 100,
+            "IconArrayColour": "#0000FF",
+            "IconArrayPer": 100000,
+            "TxIcons": 0,
+            "ControlIcons": 0,
+            "VaxVsVaxIcons": 0,
+            "TxPara": "For every 100,000 people who were randomized to get two doses of the vaccine, 0 had blood clots due to the vaccine.",
+            "ControlPara": "For every 100,000 people who were randomized to get two doses of salt water (placebo), 0 had blood clots due to Covid.",
+            "VaxVsVaxPara": "For every 100,000 people who were randomized to get two doses of the vaccine, 0 had blood clots due to the vaccine.",
+            "MoreInfoLink": "",
+            "MoreInfoText": "NA"
+          },
+          {
+            "Tile": "Chance of other side effects",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcon": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "zzz",
+            "ControlPara": "zzz",
+            "VaxVsVaxPara": "zzz",
+            "MoreInfoLink": "",
+            "MoreInfoText": "NA"
+          },
+          {
+            "Tile": "Real-world effectiveness (including against variants)",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "<b>The Pfizer vaccine was shown to be ZZZ% effective against the Alpha variant in a study in the UK.</b><br><br>More details about study ...<a href=\"linkhere\">link to study</a><br><br><b>Study 2</b>",
+            "ControlPara": "zzz",
+            "VaxVsVaxPara": "zzz",
+            "MoreInfoLink": "",
+            "MoreInfoText": "NA"
+          },
+          {
+            "Tile": "Long-term effects",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "zzz",
+            "ControlPara": "zzz",
+            "VaxVsVaxPara": "zzz",
+            "MoreInfoLink": "",
+            "MoreInfoText": "NA"
+          },
+          {
+            "Tile": "Specific groups: older adults",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "zzz",
+            "ControlPara": "zzz",
+            "VaxVsVaxPara": "zzz",
+            "MoreInfoLink": "",
+            "MoreInfoText": "NA"
+          },
+          {
+            "Tile": "Specific groups: pregnancy",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "zzz",
+            "ControlPara": "zzz",
+            "VaxVsVaxPara": "zzz",
+            "MoreInfoLink": "",
+            "MoreInfoText": "NA"
+          },
+          {
+            "Tile": "Specific groups: children",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "zzz",
+            "ControlPara": "zzz",
+            "VaxVsVaxPara": "zzz",
+            "MoreInfoLink": "",
+            "MoreInfoText": "NA"
+          },
+          {
+            "Tile": "Specific groups: immunocompromised people",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "TxPara": "zzz",
+            "VaxVsVaxPara": "zzz",
+            "MoreInfoLink": "",
+            "MoreInfoText": "NA"
+          },
+          {
+            "Tile": "Specific groups: people who should not get this vaccine",
+            "IconArray": false,
+            "IconArrayBase": "NA",
+            "IconArrayColour": "NA",
+            "IconArrayPer": "NA",
+            "TxIcons": "NA",
+            "ControlIcons": "NA",
+            "VaxVsVaxIcons": "NA",
+            "Tile4.15TxPara": "People who should not get this vaccine: those who are allergic to the active substance or to any ingredients in the vaccine. ZZZ ADD LINK TO PAGE WITH INGREDIENTS",
+            "ControlPara": "Not applicable (no vaccine)",
+            "VaxVsVaxPara": "People who should not get this vaccine: those who are allergic to the active substance or to any ingredients in the vaccine. ZZZ ADD LINK TO PAGE WITH INGREDIENTS",
+            "MoreInfoLink": "",
+            "MoreInfoText": "NA"
+          }
+        ]
+      }
+    },
+    "c19vaxdaFaq": [
+      {
+        "faqnumber": "FAQ01",
+        "faqheader": "Are the vaccines safe?",
+        "faqanswer": "Yes, they are safe. All of the vaccines approved in Canada have been carefully tested. Scientists at Health Canada have carefully examined all the data. ZZZ more text"
+      },
+      {
+        "faqnumber": "FAQ02",
+        "faqheader": "Are the vaccines \"experimental\"?",
+        "faqanswer": "No, the vaccines are not experimental. They were experimental when the trials were in progress. The experiments (trials) have all been done. They showed that the vaccines are safe and effective. ZZZ more"
+      },
+      {
+        "faqnumber": "FAQ03",
+        "faqheader": "How did they develop the vaccines so fast?",
+        "faqanswer": "zzz"
+      },
+      {
+        "faqnumber": "FAQ04",
+        "faqheader": "zzz",
+        "faqanswer": "zzz"
+      },
+      {
+        "faqnumber": "FAQ05",
+        "faqheader": "zzz",
+        "faqanswer": "zzz"
+      },
+      {
+        "faqnumber": "FAQ06",
+        "faqheader": "zzz",
+        "faqanswer": "zzz"
+      },
+      {
+        "faqnumber": "FAQ07",
+        "faqheader": "zzz",
+        "faqanswer": "zzz"
+      },
+      {
+        "faqnumber": "FAQ08",
+        "faqheader": "zzz",
+        "faqanswer": "zzz"
+      },
+      {
+        "faqnumber": "FAQ09",
+        "faqheader": "zzz",
+        "faqanswer": "zzz"
+      },
+      {
+        "faqnumber": "FAQ10",
+        "faqheader": "zzz",
+        "faqanswer": "zzz"
+      },
+      {
+        "faqnumber": "FAQ11",
+        "faqheader": "zzz",
+        "faqanswer": "zzz"
+      },
+      {
+        "faqnumber": "FAQ12",
+        "faqheader": "zzz",
+        "faqanswer": "zzz"
+      },
+      {
+        "faqnumber": "FAQ13",
+        "faqheader": "zzz",
+        "faqanswer": "zzz"
+      },
+      {
+        "faqnumber": "FAQ14",
+        "faqheader": "zzz",
+        "faqanswer": "zzz"
+      },
+      {
+        "faqnumber": "FAQ15",
+        "faqheader": "zzz",
+        "faqanswer": "zzz"
+      },
+      {
+        "faqnumber": "FAQ16",
+        "faqheader": "zzz",
+        "faqanswer": "zzz"
+      },
+      {
+        "faqnumber": "FAQ17",
+        "faqheader": "zzz",
+        "faqanswer": "zzz"
+      },
+      {
+        "faqnumber": "FAQ18",
+        "faqheader": "zzz",
+        "faqanswer": "zzz"
+      },
+      {
+        "faqnumber": "FAQ19",
+        "faqheader": "zzz",
+        "faqanswer": "zzz"
+      }
+    ],
+    "c19vaxda_vaccines": [
+      {
+        "vaxid": "c19vaxpf",
+        "vaxtype": "mRNA",
+        "vaxtypeen": "messenger RNA",
+        "vaxtypefr": "ARN messager",
+        "vaxnameen": "Pfizer/BioNTech\n",
+        "vaxnamefr": "Pfizer-BioNTech",
+        "vaxdescen": "The Pfizer/BioNTech vaccine was approved in Canada on December 9, 2020 for people 16 years old and older.<br><br>It must be kept extremely cold (-70 degrees C) and is therefore difficult to transport to remote locations. It is currently available in all provinces but not in any territories. It is a 2-dose messenger RNA (mRNA) vaccine.<br><br>Messenger RNA means the vaccine gives your body instructions to make a part of the Covid-19 virus that is harmless on its own. Your body then learns to fight off that part of the virus. If your body encounters the full virus later, it knows how to destroy the part it already knows. Without its missing part, the virus cannot survive.<br><br>The vaccine does not change your DNA.",
+        "vaxdescfr": "zzz",
+        "vaxcontraindicationsen": "People who should not get this vaccine: those who are allergic to the active substance or to any ingredients in the vaccine. https://covid-vaccine.canada.ca/info/summary-basis-decision-detailTwo.html?linkID=SBD00510",
+        "vaxcontraindicationsfr": "zzz"
+      },
+      {
+        "vaxid": "c19vaxmd",
+        "vaxtype": "mRNA",
+        "vaxtypeen": "messenger RNA",
+        "vaxtypefr": "ARN messager",
+        "vaxnameen": "Moderna",
+        "vaxnamefr": "Moderna",
+        "vaxdescen": "The Moderna vaccine was approved in Canada on December 23, 2020 for people 18 years old and older.<br><br>It can be stored at less extreme temperatures (-20 degrees C) and is therefore easier to transport to remote locations compared to the Pfizer/BioNTech vaccine. It is currently available in all provinces and territories. It is a 2-dose messenger RNA (mRNA) vaccine.<br><br>Messenger RNA means the vaccine gives your body instructions to make a part of the Covid-19 virus that is harmless on its own. Your body then learns to fight off that part of the virus. If your body encounters the full virus later, it knows how to destroy the part it already knows. Without its missing part, the virus cannot survive.<br><br>The vaccine does not change your DNA.",
+        "vaxdescfr": "zzz",
+        "vaxcontraindicationsen": "zzz",
+        "vaxcontraindicationsfr": "zzz"
+      },
+      {
+        "vaxid": "c19vaxaz",
+        "vaxtype": "adenovirus",
+        "vaxtypeen": "adenovirus",
+        "vaxtypefr": "adénovirus",
+        "vaxnameen": "AstraZeneca/Oxford",
+        "vaxnamefr": "Johnson&Johnson/Janssen",
+        "vaxdescen": "The Oxford/AstraZeneca vaccine was approved in Canada on February 26, 2021 for people 18 years old and older.<br><br>It can be stored at regular refrigerator temperatures (2-8 degrees C) and is therefore the easiest to store and transport of all the vaccines as of February 2021. It is currently available in all provinces and territories for people of specific ages (often people aged 40 and up or 45 and up.) It is a 2-dose adenovirus vector vaccine.<br><br>Adenovirus vector means the vaccine uses a harmless virus (not Covid) to get your body instructions to make a part of the Covid-19 virus that is harmless on its own. Your body then learns to fight off that part of the virus. If your body encounters the full virus later, it knows how to destroy the part it already knows. Without its missing part, the virus cannot survive.<br><br>The vaccine does not change your DNA.",
+        "vaxdescfr": "zzz",
+        "vaxcontraindicationsen": "zzz",
+        "vaxcontraindicationsfr": "zzz"
+      },
+      {
+        "vaxid": "c19vaxjj",
+        "vaxtype": "adenovirus",
+        "vaxtypeen": "adenovirus",
+        "vaxtypefr": "zzz",
+        "vaxnameen": "Johnson&Johnson/Janssen",
+        "vaxnamefr": "zzz",
+        "vaxdescen": "The Janssen vaccine was approved in Canada on March 5, 2021 for people 18 years old and older.<br><br>It can be stored at regular refrigerator temperatures (2-8 degrees C) and is therefore one of the easiest to store and transport of all the vaccines so far. It is a 1-dose adenovirus vector vaccine.<br><br>Adenovirus vector means the vaccine uses a harmless virus (not Covid) to get your body instructions to make a part of the Covid-19 virus that is harmless on its own. Your body then learns to fight off that part of the virus. If your body encounters the full virus later, it knows how to destroy the part it already knows. Without its missing part, the virus cannot survive.<br><br>The vaccine does not change your DNA.",
+        "vaxdescfr": "zzz",
+        "vaxcontraindicationsen": "zzz",
+        "vaxcontraindicationsfr": "zzz"
+      }
+    ]
+  },
+  "autoGenerated": {
+    "currentLanguage": "en",
+    "homeTitle": "What role does each of us play in protecting our community ?",
+    "homeSubTitle": "An interactive visualization ",
+    "homeBtnContinue": "Start ",
+    "continueBtn": "Continue",
+    "saveBtn": "Save",
+    "saveEditBtn": "Save edit",
+    "cancelBtn": "Cancel",
+    "resetAllBtn": "Reset all",
+    "pageTitle": "Build your community",
+    "subtitle": "Your community",
+    "finalInfo": "Press the button to go to the animation",
+    "skinColorTab": "Skin color",
+    "hairColorTab": "Hair color",
+    "glassesTab": "Glasses",
+    "facialHairTab": "Facial hair",
+    "contextualInfoAvatar": "Select and customize a character that represents you (your avatar).",
+    "nowSelect": "Now create the avatars of",
+    "selectVulnerable": "people around you who are vulnerable to diseases, i.e. they can catch diseases more easily or diseases can make them sicker (e.g. babies, the elderly, people with health problems (cancer, diabetes, asthma, etc.)).",
+    "vulnerableDesc": "Now create the avatars of ### people around you who are vulnerable to diseases, i.e. they can catch diseases more easily or diseases can make them sicker (e.g. babies, the elderly, people with health problems (cancer, diabetes, asthma, etc.)).",
+    "othersDesc": "Finally, choose and customize ### other avatars. These represent other people around you.",
+    "finallySelect": "Finally, choose and customize",
+    "selectOthersPeople": "other avatars. These represent other people around you.",
+    "avatar": "your avatar",
+    "vulnerable": "a vulnerable person",
+    "otherPeople": "a person around you",
+    "language": "Français",
+    "createAvatar": "Create",
+    "editAvatar": "Edit",
+    "startAnimation": "Start animation & sound",
+    "restartAnimation": "Replay the animation",
+    "redirectSurvey": "Return to survey",
+    "nameInputLabel": "Name",
+    "nameInputPlaceHolder": "Name your avatar",
+    "totalCharacterCount": "avatars made: ",
+    "defaultCharacterName": "Person",
+    "displayCaptions": "Display captions",
+    "avatarName": "Your avatar",
+    "categories": [
+      "You",
+      "Vulnerable people",
+      "People around you"
+    ],
+    "reason": "Reasons",
+    "vulnerableDescription": "Why is this person at greater risk? This person is: (check all that apply)",
+    "sameCharacters": "Same Characters",
+    "differentCharacters": "Random Characters",
+    "moreColor": "More Colours",
+    "addColor": "Add color",
+    "cancelSpectrumColor": "Cancel",
+    "None": "None",
+    "changeAvatar": "Change avatar",
+    "selectAvatar": "Select a new avatar to replace the current one",
+    "replaceYourAvatar": "Replace your avatar",
+    "replaceYourVulnerable": "Replace your vulnerable person",
+    "replaceYourComm": "Replace a person around you",
+    "doneButton": "Done",
+    "stepsMakingAvatar": [
+      {
+        "title": "Build your avatar",
+        "description": "Choose a character that looks like you."
+      },
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "commentary": "----------------------------------------------------------------------------------",
+    "vulnerableOptions": [
+      {
+        "name": "Younger people (babies, young children)",
+        "id": 0
+      },
+      {
+        "name": "Older person (senior)",
+        "id": 1
+      },
+      {
+        "name": "A person with a more fragile immune system (cancer, diabetes, or other conditions)",
+        "id": 2
+      }
+    ],
+    "dialogTitle": "Welcome",
+    "dialogTexte": "This application is optimized for iOS, Android, Chrome, Firefox, Safari, Opera with the view set at 100% zoom. Other browsers (e.g., Internet Explorer, Microsoft Edge) are not currently supported.",
+    "dialogbtn": "Ok",
+    "notFoundText": "The page you are looking for does not exist.",
+    "redirectHomeBtn": "Back to home page"
+  },
+  "vcm": {
+    "msgCard": "card",
+    "language": "FR",
+    "currentLanguage": "en",
+    "cardReference": [
+      "References ",
+      "(click to open or close)"
+    ],
+    "cardSubtitle": [
+      "You weigh the pros and cons"
+    ],
+    "vcmComponent": {
+      "currentLanguage": "en",
+      "title": "What matters to you",
+      "description": "Use the sliders below to help you consider what matters most to you in this decision.",
+      "language": "FR",
+      "leftScaleLabel": "Doesn’t matter at all",
+      "rightScaleLabel": "Matters a lot",
+      "topSliderLabel": "Reason(s) to choose option ",
+      "result": " fits best with what matters to you",
+      "reasonGraphLabel": [
+        "Protect my child from HPV-related cancers and genital warts; prevent my child from transmitting HPV to others.",
+        "Avoid my child experiencing any disadvantages of HPV vaccination (pain, possible side effects)."
+      ],
+      "optionGraphLabel": [
+        " Option 1",
+        " Option 2"
+      ],
+      "instruction": [
+        "Show Instructions",
+        "Hide Instructions"
+      ],
+      "dashedSpanTxt": [
+        "",
+        "Dashed text",
+        " can be modified by double-clicking on it."
+      ]
+    }
+  },
+  "links": {
+    "faq": "frequently asked question",
+    "c19vaxdaFaq": [
+      {
+        "faqheader": "Are the vaccines safe?",
+        "faqanswer": "Yes, they are safe. All of the vaccines approved in Canada have been carefully tested. Scientists at Health Canada have carefully examined all the data. ZZZ more text"
+      },
+      {
+        "faqheader": "Are the vaccines \"experimental\"?",
+        "faqanswer": "No, the vaccines are not experimental. They were experimental when the trials were in progress. The experiments (trials) have all been done. They showed that the vaccines are safe and effective. ZZZ more"
+      },
+      {
+        "faqheader": "How did they develop the vaccines so fast?",
+        "faqanswer": "zzz"
+      },
+      {
+        "faqheader": "zzz",
+        "faqanswer": "zzz"
+      },
+      {
+        "faqheader": "zzz",
+        "faqanswer": "zzz"
+      },
+      {
+        "faqheader": "zzz",
+        "faqanswer": "zzz"
+      },
+      {
+        "faqheader": "zzz",
+        "faqanswer": "zzz"
+      },
+      {
+        "faqheader": "zzz",
+        "faqanswer": "zzz"
+      },
+      {
+        "faqheader": "zzz",
+        "faqanswer": "zzz"
+      },
+      {
+        "faqheader": "zzz",
+        "faqanswer": "zzz"
+      },
+      {
+        "faqheader": "zzz",
+        "faqanswer": "zzz"
+      },
+      {
+        "faqheader": "zzz",
+        "faqanswer": "zzz"
+      },
+      {
+        "faqheader": "zzz",
+        "faqanswer": "zzz"
+      },
+      {
+        "faqheader": "zzz",
+        "faqanswer": "zzz"
+      },
+      {
+        "faqheader": "zzz",
+        "faqanswer": "zzz"
+      },
+      {
+        "faqheader": "zzz",
+        "faqanswer": "zzz"
+      },
+      {
+        "faqheader": "zzz",
+        "faqanswer": "zzz"
+      },
+      {
+        "faqheader": "zzz",
+        "faqanswer": "zzz"
+      },
+      {
+        "faqheader": "zzz",
+        "faqanswer": "zzz"
+      }
+    ]
+  },
+  "aboutsUs": {}
+}
+
+

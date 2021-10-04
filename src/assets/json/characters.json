@@ -1,0 +1,205 @@
+{
+    "nbAvatar" : 1,
+    "nbVulnerable" : 2,
+    "nbCommunity" : 6,
+    "maxColorTile" : 12,
+    "defaultColorForAllAvatarElements" : "#BDBDBD",
+    "defaultColors" : {
+        "HairColor": "#91553D",
+        "SkinColor": "#D8905F",
+        "ShirtColorAvatar": "#F67844",
+        "ShirtColorCharacters": "#BFBABE",
+        "AccessoriesColor": "#727272"
+    },
+    "scrollingTimeControl" : "2000",
+    "folder" : "characters",
+    "skinColors" : ["#FAE7DF", "#EBC0A9", "#BF7754", "#6F3A29", "#412B28"],
+    "hairColors" : ["#090806", "#71635A", "#4E433F",
+        "#D6C4C2", "#CABFB1", "#412308",
+        "#6A4E42", "#91553D", "#B55239",
+        "#A56B46", "#977961", "#B89778",
+        "#DEBC99", "#E6CEA8", "#FFF5E1"],
+    "characters" : [
+        {
+            "id": "child01",
+            "file" 	 : "child01.svg",
+            "hasGlasses" : true,
+            "hasFacialHair" : false
+        },
+        {
+            "id": "child02",
+            "file" : "child02.svg",
+            "hasGlasses" : true,
+            "hasFacialHair" : false
+        },
+        {
+            "id": "child03",
+            "file" : "child03.svg",
+            "hasGlasses" : true,
+            "hasFacialHair" : false
+        },
+        {
+            "id": "child04",
+            "file" : "child04.svg",
+            "hasGlasses" : true,
+            "hasFacialHair" : false
+        },
+        {
+            "id": "child05",
+            "file" : "child05.svg",
+            "hasGlasses" : true,
+            "hasFacialHair" : false
+        },
+        {
+            "id": "adult01",
+            "file" : "adult01.svg",
+            "hasGlasses" : true,
+            "hasFacialHair" : true
+        },
+        {
+            "id": "adult02",
+            "file" : "adult02.svg",
+            "hasGlasses" : true,
+            "hasFacialHair" : true
+        },
+        {
+            "id": "adult03",
+            "file" : "adult03.svg",
+            "hasGlasses" : true,
+            "hasFacialHair" : true
+        },
+        {
+            "id": "adult04",
+            "file" : "adult04.svg",
+            "hasGlasses" : true,
+            "hasFacialHair" : true
+        },
+        {
+            "id": "adult05",
+            "file" : "adult05.svg",
+            "hasGlasses" : true,
+            "hasFacialHair" : true
+        },
+        {
+            "id": "adult06",
+            "file" : "adult06.svg",
+            "hasGlasses" : true,
+            "hasFacialHair" : true
+        },
+        {
+            "id": "adult07",
+            "file" : "adult07.svg",
+            "hasGlasses" : true,
+            "hasFacialHair" : true
+        },
+        {
+            "id": "adult08",
+            "file" : "adult08.svg",
+            "hasGlasses" : true,
+            "hasFacialHair" : true
+        },
+        {
+            "id": "adult09",
+            "file" : "adult09.svg",
+            "hasGlasses" : true,
+            "hasFacialHair" : true
+        },
+        {
+            "id": "adult10",
+            "file" : "adult10.svg",
+            "hasGlasses" : true,
+            "hasFacialHair" : true
+        },
+        {
+            "id": "adult11",
+            "file" : "adult11.svg",
+            "hasGlasses" : true,
+            "hasFacialHair" : true
+        },
+        {
+            "id": "adult12",
+            "file" : "adult12.svg",
+            "hasGlasses" : true,
+            "hasFacialHair" : true
+        },
+        {
+            "id": "adult13",
+            "file" : "adult13.svg",
+            "hasGlasses" : true,
+            "hasFacialHair" : true
+        },
+        {
+            "id": "adult14",
+            "file" : "adult14.svg",
+            "hasGlasses" : true,
+            "hasFacialHair" : true
+        },
+        {
+            "id": "adult15",
+            "file" : "adult15.svg",
+            "hasGlasses" : true,
+            "hasFacialHair" : true
+        },
+        {
+            "id": "adult16",
+            "file" : "adult16.svg",
+            "hasGlasses" : true,
+            "hasFacialHair" : true
+        },
+        {
+            "id": "adult17",
+            "file" : "adult17.svg",
+            "hasGlasses" : true,
+            "hasFacialHair" : true
+        },
+        {
+            "id": "adult18",
+            "file" : "adult18.svg",
+            "hasGlasses" : true,
+            "hasFacialHair" : true
+        },
+        {
+            "id": "adult19",
+            "file" : "adult19.svg",
+            "hasGlasses" : true,
+            "hasFacialHair" : true
+        },
+        {
+            "id": "adult20",
+            "file" : "adult20.svg",
+            "hasGlasses" : true,
+            "hasFacialHair" : true
+        },
+        {
+            "id": "adult21",
+            "file" : "adult21.svg",
+            "hasGlasses" : true,
+            "hasFacialHair" : true
+        },
+        {
+            "id": "adult22",
+            "file" : "adult22.svg",
+            "hasGlasses" : true,
+            "hasFacialHair" : true
+        },
+        {
+            "id": "adult23",
+            "file" : "adult23.svg",
+            "hasGlasses" : true,
+            "hasFacialHair" : true
+        },
+        {
+            "id": "adult24",
+            "file" : "adult24.svg",
+            "hasGlasses" : true,
+            "hasFacialHair" : true
+        }
+    ,
+        {
+            "id": "adult25",
+            "file" : "adult25.svg",
+            "hasGlasses" : true,
+            "hasFacialHair" : true
+        }
+    ]
+}
